@@ -1,5 +1,5 @@
 {
-  "name": "@mbs/sdk",
+  "name": "mbs-workbench",
   "version": "0.2.4",
   "description": "Official TypeScript SDK for MBS Workbench — OpenAI-compatible local AI inference",
   "author": "MBS Tech Solutions",
@@ -9,14 +9,14 @@
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "require": "./dist/index.js"
     },
     "./react": {
+      "types": "./dist/react.d.ts",
       "import": "./dist/react.mjs",
-      "require": "./dist/react.js",
-      "types": "./dist/react.d.ts"
+      "require": "./dist/react.js"
     }
   },
   "files": [
@@ -56,6 +56,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/MBSTech-sol/MBS-Workbench"
+    "url": "git+https://github.com/MBSTech-sol/typescript.git"
   }
 }

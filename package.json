@@ -54,6 +54,7 @@
     "gguf",
     "llama"
   ],
+  "homepage": "https://mbsworkbench.com",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MBSTech-sol/typescript.git"
